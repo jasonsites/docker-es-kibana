@@ -1,7 +1,7 @@
 {
   "name": "docker-es-kibana",
   "version": "0.0.1",
-  "description": "Docker network for Elasticsearch, Kibana, and a proxy for an ES cluster on AWS",
+  "description": "Docker network for Elasticsearch / Kibana / AWS Elasticsearch Service Proxy",
   "scripts": {
     "preinstall": "npm prune",
     "release": "standard-version"
