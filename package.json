@@ -1,0 +1,23 @@
+{
+  "name": "docker-es-kibana",
+  "version": "0.0.1",
+  "description": "Docker network for Elasticsearch, Kibana, and a proxy for an ES cluster on AWS",
+  "scripts": {
+    "preinstall": "npm prune",
+    "release": "standard-version"
+  },
+  "keywords": [
+    "aws",
+    "docker",
+    "elasticsearch",
+    "es",
+    "kibana",
+    "proxy",
+    "reindex"
+  ],
+  "author": "Jason Sites <email@jasonsites.com> (https://github.com/jasonsites)",
+  "license": "MIT",
+  "dependencies": {
+    "standard-version": "^4.3.0"
+  }
+}
