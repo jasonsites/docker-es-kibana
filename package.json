@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/jasonsites/docker-es-kibana#readme",
   "dependencies": {
-    "proxy-es-aws": "^0.1.2",
+    "proxy-es-aws": "^0.1.3",
     "standard-version": "^4.3.0"
   }
 }
