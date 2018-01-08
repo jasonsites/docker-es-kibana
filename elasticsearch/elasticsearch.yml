@@ -1,2 +1,2 @@
 http.host: 0.0.0.0
-reindex.remote.whitelist: "172.*.*.*:9210"
+reindex.remote.whitelist: "172.19.0.2:9210"
