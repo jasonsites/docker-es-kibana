@@ -1,5 +1,5 @@
-ARG ES_IMAGE
-FROM $ES_IMAGE
+ARG IMAGE
+FROM $IMAGE
 
 # replace default config to allow for remote reindexing
 COPY --chown=elasticsearch:elasticsearch elasticsearch.yml /usr/share/elasticsearch/config/

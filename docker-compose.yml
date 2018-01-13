@@ -30,7 +30,7 @@ services:
     build:
       context: ./elasticsearch
       args:
-        ES_IMAGE: ${ELASTICSEARCH_IMAGE}
+        IMAGE: ${ES_IMAGE}
     networks:
       appnet:
         ipv4_address: 172.19.0.3
@@ -43,7 +43,7 @@ services:
     build:
       context: ./kibana
       args:
-        KB_IMAGE: ${KIBANA_IMAGE}
+        IMAGE: ${KB_IMAGE}
     networks:
       appnet:
         ipv4_address: 172.19.0.4
