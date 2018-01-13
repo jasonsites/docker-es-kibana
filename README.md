@@ -63,7 +63,7 @@ $ docker-compose up
 Once the environment spins up, point your browser to [http://127.0.0.1:5601](http://127.0.0.1:5601) to access the Kibana console.
 
 To reindex data from your AWS Elasticsearch cluster to the Elasticsearch container, create an index with your mappings:
-```json
+```
 PUT {test-index-name}
 {
   "mappings": {
