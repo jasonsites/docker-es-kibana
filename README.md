@@ -40,6 +40,8 @@ Elasticsearch and Kibana images can be found at:
 - [Docker Hub (Elasticsearch)](https://hub.docker.com/_/elasticsearch/) (*deprecated*)
 - [Docker Hub (Kibana)](https://hub.docker.com/_/kibana/) (*deprecated*)
 
+*To avoid compatibility issues, use the same version number for the Elasticsearch and Kibana images*
+
 ## Usage
 ```shell
 $ docker-compose up

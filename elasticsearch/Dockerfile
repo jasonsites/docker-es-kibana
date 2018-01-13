@@ -1,4 +1,4 @@
-ARG ES_IMAGE=docker.elastic.co/elasticsearch/elasticsearch:6.0.1
+ARG ES_IMAGE
 FROM $ES_IMAGE
 
 # replace default config to allow for remote reindexing

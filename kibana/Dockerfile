@@ -1,2 +1,2 @@
-ARG KB_IMAGE=docker.elastic.co/kibana/kibana-oss:6.0.1
+ARG KB_IMAGE
 FROM $KB_IMAGE
