@@ -3,8 +3,7 @@
   "version": "0.1.2",
   "description": "Docker network for Elasticsearch / Kibana / AWS Elasticsearch Service Proxy",
   "scripts": {
-    "preinstall": "npm prune",
-    "release": "standard-version"
+    "preinstall": "npm prune"
   },
   "repository": {
     "type": "git",
@@ -26,7 +25,6 @@
   },
   "homepage": "https://github.com/jasonsites/docker-es-kibana#readme",
   "dependencies": {
-    "proxy-es-aws": "^0.1.6",
-    "standard-version": "^4.4.0"
+    "proxy-es-aws": "^0.1.6"
   }
 }
