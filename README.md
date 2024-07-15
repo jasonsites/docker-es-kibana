@@ -9,8 +9,8 @@ It allows developers to reindex data from an ES cluster on AWS to an ES instance
 
 ## Installing
 Prerequisites:
-- [Docker](https://www.docker.com/community-edition#/download)
-- [Node 8+](https://nodejs.org)
+- [Docker](https://www.docker.com/products/docker-desktop/)
+- [Node 18+](https://nodejs.org)
 
 ```shell
 $ git clone git@github.com:jasonsites/docker-es-kibana.git
